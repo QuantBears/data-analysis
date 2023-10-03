@@ -1,0 +1,60 @@
+{
+  "data": [
+    {
+      "id": "2214125833",
+      "type": "historical_price",
+      "attributes": {
+        "open": 172.02,
+        "close": 171.21,
+        "high": 173.07,
+        "low": 170.341,
+        "volume": 51861083.0,
+        "div_adj_factor": 1.0,
+        "as_of_date": "2023-09-29"
+      },
+      "relationships": {
+        "ticker": { "data": { "id": "146", "type": "ticker" } }
+      }
+    },
+    {
+      "id": "2214126258",
+      "type": "historical_price",
+      "attributes": {
+        "open": 317.75,
+        "close": 315.75,
+        "high": 319.47,
+        "low": 314.98,
+        "volume": 24147298.0,
+        "div_adj_factor": 1.0,
+        "as_of_date": "2023-09-29"
+      },
+      "relationships": {
+        "ticker": { "data": { "id": "575", "type": "ticker" } }
+      }
+    }
+  ],
+  "included": [
+    {
+      "id": "146",
+      "type": "ticker",
+      "attributes": { "slug": "aapl" },
+      "relationships": {},
+      "meta": {
+        "companyLogoUrl": "https://static.seekingalpha.com/cdn/iex/stable/stock/aapl/logo?asImage=true",
+        "companyLogoUrlLight": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_light/AAPL",
+        "companyLogoUrlDark": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_dark/AAPL"
+      }
+    },
+    {
+      "id": "575",
+      "type": "ticker",
+      "attributes": { "slug": "msft" },
+      "relationships": {},
+      "meta": {
+        "companyLogoUrl": "https://static.seekingalpha.com/cdn/iex/stable/stock/msft/logo?asImage=true",
+        "companyLogoUrlLight": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_light/MSFT",
+        "companyLogoUrlDark": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_dark/MSFT"
+      }
+    }
+  ]
+}
