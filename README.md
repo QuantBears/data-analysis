@@ -1,5 +1,27 @@
 # data-analysis
 
+## Data Splitting
+
+Splits:
+
+- Train set
+- Validation set
+- Test set
+
+Since this is a time series dataset and the time offset is 1 week, there is the possibility of data leakage if splitting is random, which means that the model would have some information about the distribution of the data in the future when training.
+
+TO prevent this, we can split our dataset accordingly. Suppose I have data from t=0 to t=100 with target offset of t=7. This means that I am using t=0 to predict a value at t=7, and so on. Then I can split my data as such to prevent data leakage given train size = ~60%, val size = ~20%, test size = ~20%:
+
+- Train set
+  - X: t=0 to t=53
+  - y: t=7 to t=60
+- Validation set
+  - X: t=54 to t=70
+  - y: t=61 to t=77
+- Test set:
+  - X: t=78 to t=93
+  - y: t=85 to t=100
+
 ## Preprocessing
 
 Steps:
