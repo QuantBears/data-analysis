@@ -1,0 +1,15 @@
+- (DONE) Make autoregressive features for all features that are less than .95 correlated on average over a week
+- standard scale all features
+- Try out all different ML models and hyper-param tune each
+	- Check out scikit-learn ParameterGrid for training on all hyperparams
+	- For each hyperparam, create validation curve and ensure
+		- curve goes up and down such that we know we have both under- and over-tuned each param
+- Try out different random states too
+- sklearn GridSearchCV
+- explainability
+	- shap
+
+
+- Models to try:
+	- XGBoost
+	- Imputation then linear, random-forest
