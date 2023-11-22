@@ -42,4 +42,4 @@ def create_autoreg_features(df, short_term_features, num_days = 2):
 
 	assert df.shape[0] - new_df.shape[0] == autoreg_removed_rows, "Autoregression removed different amount of rows than expected"
 	
-	return new_df
+	return new_df.reorder_levels([1, 0]).sort_index()

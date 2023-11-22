@@ -48,3 +48,14 @@ def load_pred_price(df, days_ahead=5):
 
 	price_df = pd.concat(dfs, axis = 0).set_index(["date", "ticker"]).rename({"primary_price": "pred_price"}, axis = 1)
 	return adjusted_df.reindex(price_df.index), price_df
+
+def split_date(all_dates, train_size = 0.75, days_ahead = 5):
+	num_dates = len(all_dates)
+	num_train_test_dates = num_dates - days_ahead
+	num_train_dates = int(num_train_test_dates * train_size)
+
+	train_dates = all_dates[:num_train_dates]
+	val_dates = all_dates[num_train_dates:num_train_dates+days_ahead]
+	test_dates = all_dates[num_train_dates+days_ahead:]
+
+	return train_dates, val_dates, test_dates
