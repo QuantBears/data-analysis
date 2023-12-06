@@ -17,3 +17,7 @@ In order to reproduce results, please download all data in this drive and place 
 ## Author
 
 [Nuo Wen Lei](https://nuowenlei.github.io/personal-portfolio/) (nuo_wen_lei@brown.edu)
+
+## License
+
+MIT License
