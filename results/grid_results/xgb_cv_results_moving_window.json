@@ -1,0 +1,82 @@
+{
+  "xgbregressor": {
+    "rmse_scores": {
+      "2023-10-30": [
+        0.14079103788650682, 0.07497538867205285, 0.06511474749598006
+      ],
+      "2023-10-31": [
+        0.14085113700586413, 0.06779320343915794, 0.06522685021272046
+      ],
+      "2023-11-01": [
+        0.14071438118205803, 0.07130837016382845, 0.06515681552319047
+      ],
+      "2023-11-02": [
+        0.14115770657086965, 0.07571476985418321, 0.06539711716379852
+      ],
+      "2023-11-03": [
+        0.11492555175521657, 0.06437493169358369, 0.06740798779487335
+      ]
+    },
+    "r2_scores": {
+      "2023-10-30": [
+        8.948979964173986e-6, -0.09331304770325155, -0.001664465172172891
+      ],
+      "2023-10-31": [
+        4.4174338178493144e-6, -0.01541891026921216, -0.005116401078331112
+      ],
+      "2023-11-01": [
+        4.151373070748754e-6, -0.019233260606708713, -0.002959153747312371
+      ],
+      "2023-11-02": [
+        8.938307550998559e-6, -0.16760843494544275, -0.010370724179547208
+      ],
+      "2023-11-03": [
+        0.34389243522897517, -0.031562367304188044, -0.0734610029261551
+      ]
+    },
+    "pred_deviations": {
+      "2023-10-30": [6.791222e-7, 1.6157719e-7, 1.733014e-7],
+      "2023-10-31": [3.384886e-7, 1.2544972e-7, 1.3561936e-7],
+      "2023-11-01": [3.1749326e-7, 1.186079e-7, 1.1968535e-7],
+      "2023-11-02": [6.807034e-7, 1.7074238e-7, 1.7055397e-7],
+      "2023-11-03": [0.028977731, 0.007301983, 0.0073790494]
+    },
+    "best_params": {
+      "2023-10-30": {
+        "xgbregressor__learning_rate": 1e-7,
+        "xgbregressor__max_depth": 5,
+        "xgbregressor__n_estimators": 100,
+        "xgbregressor__reg_lambda": 1.0,
+        "xgbregressor__subsample": null
+      },
+      "2023-10-31": {
+        "xgbregressor__learning_rate": 1e-7,
+        "xgbregressor__max_depth": 5,
+        "xgbregressor__n_estimators": 100,
+        "xgbregressor__reg_lambda": 1.0,
+        "xgbregressor__subsample": 0.5
+      },
+      "2023-11-01": {
+        "xgbregressor__learning_rate": 1e-7,
+        "xgbregressor__max_depth": 5,
+        "xgbregressor__n_estimators": 100,
+        "xgbregressor__reg_lambda": 1.0,
+        "xgbregressor__subsample": 0.5
+      },
+      "2023-11-02": {
+        "xgbregressor__learning_rate": 1e-7,
+        "xgbregressor__max_depth": 5,
+        "xgbregressor__n_estimators": 100,
+        "xgbregressor__reg_lambda": 1.0,
+        "xgbregressor__subsample": null
+      },
+      "2023-11-03": {
+        "xgbregressor__learning_rate": 0.001,
+        "xgbregressor__max_depth": 5,
+        "xgbregressor__n_estimators": 1000,
+        "xgbregressor__reg_lambda": 1.0,
+        "xgbregressor__subsample": 0.5
+      }
+    }
+  }
+}

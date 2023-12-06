@@ -3,7 +3,14 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-*.csv
+quant-bears_accessKeys.csv
+
+*/*/classification1
+*/*/classification2
+*/*/regression1
+scripts
+*/*/data_downloader.ipynb
+data
 
 
 # C extensions

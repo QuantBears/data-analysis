@@ -1,5 +1,9 @@
 # data-analysis
 
+## Link to Dataset
+
+Due to the size of the dataset, I included [this Google Drive link](https://drive.google.com/drive/folders/1iPDuWqonQ5_Zi0SiZsNlt1j_6vCxjqWq?usp=drive_link) containing the CSV files.
+
 ## Data Splitting
 
 Splits:
